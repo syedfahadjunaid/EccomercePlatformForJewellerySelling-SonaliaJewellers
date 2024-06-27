@@ -1,0 +1,39 @@
+.allpromises_icons1_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.allpromises_icons1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.allpromises_icons1_span {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.allpromises_icons1_span > img {
+  height: 180px;
+  width: 180px;
+  margin-bottom: 10px;
+}
+.allpromises_icons1_span > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: "unna";
+}
+

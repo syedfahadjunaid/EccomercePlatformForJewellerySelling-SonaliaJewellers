@@ -1,0 +1,101 @@
+.contactuspage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.contactuspage_banner {
+  width: 95%;
+  margin-top: 20px;
+}
+.contactuspage_banner > img {
+  width: 100%;
+  object-fit: contain;
+}
+.contactuspage_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contactuspage_heading > h3 {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "unno";
+}
+.contactuspage_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.contactuspage_form > form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 87%;
+}
+.contactuspage_form > form > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contactuspage_form > form > div > span {
+  flex: 0.45;
+  border: 1px solid lightgrey;
+  width: 100%;
+  border-radius: 5px;
+}
+.contactuspage_form > form > div > span > input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  outline: transparent;
+  border: transparent;
+}
+.contactuspage_textarea{
+    width: 93%;
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    font-family: 'unno';
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid lightgrey;
+    outline: transparent;
+}
+.contactuspage_form_div{
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    width: 93% !important;
+}
+.contactuspage_form>form>div>button{
+    background-color: #110C0C;
+    color: #fff;
+    padding:6px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.modal_button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #110C0C;
+    padding: 5px 8px;
+    margin-top: 5px;
+}
+.modal_box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}

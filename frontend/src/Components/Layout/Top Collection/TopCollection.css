@@ -1,0 +1,62 @@
+.topcollection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.topcollection_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.topcollection_heading>h3{
+    font-size: 35px;
+    font-family: "unno";
+    font-weight: 400;
+}
+.topcollection_slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 40px;
+}
+.topcollection_slider>img{
+    width: 100%;
+}
+.topcollection_slider_slider{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* background-image: url('../../Assests/Image/image 21.png'); */
+    width: 100%;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.topcollection_slider_slider>a{
+    margin-right: 5%;
+    margin-bottom: 2%;
+    text-decoration: none;
+    background-color: #630102;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width:600px){
+    .topcollection_slider_slider{
+        height: 12vh;
+    }
+    .topcollection_slider_slider>a{
+        font-size: 12px;
+        padding: 6px;
+    }
+}

@@ -1,0 +1,399 @@
+.AboutusPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.AboutusPage_banner {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.AboutusPage_banner > h3 {
+  font-size: 35px;
+  font-family: "unno";
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.AboutusPage_banner > p {
+  width: 30%;
+}
+.AboutusPage_container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.AboutusPage_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.AboutusPage_container_left {
+  flex: 0.45;
+  width: 80%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+.AboutusPage_container_left > img {
+  height: 450px;
+}
+
+.AboutusPage_container_right {
+  flex: 0.45;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.AboutusPage_container_left1 {
+  flex: 0.45;
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+.AboutusPage_container_left1 > p {
+  margin-bottom: 30px;
+  width: 90%;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "unno";
+}
+.AboutusPage_container_left1 > a {
+  text-decoration: none;
+  background-color: #110c0c;
+  color: #fff;
+  padding: 8px 10px;
+  font-size: 16px;
+  font-family: "unno";
+}
+.AboutusPage_container_right1 {
+  flex: 0.45;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 80%;
+  height: 300px;
+  position: relative;
+}
+.AboutusPage_container_right1 > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -15px;
+  left: 15px;
+}
+.AboutusPage_container_right > h3 {
+  margin-bottom: 30px;
+}
+.AboutusPage_container_right > p {
+  margin-bottom: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "unno";
+}
+.AboutusPage_container_left > div {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 70%;
+  color: #fff;
+}
+.AboutusPage_container_left > div > img {
+  margin-top: -45px;
+}
+.AboutusPage_container_left > div > h3 {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "unno";
+}
+.AboutusPage_container_left > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.AboutusPage_privacy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #110c0c;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.AboutusPage_privacy > h3 {
+  margin-bottom: 20px;
+}
+.AboutusPage_privacy > p {
+  width: 60%;
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "unno";
+  font-weight: 400;
+}
+.AboutusPage_privacy > a {
+  text-decoration: none;
+  background-color: #d99e09;
+  color: #fff;
+  padding: 8px 10px;
+}
+.AboutusPage_review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.AboutusPage_review_heading > h3 {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "unno";
+}
+.AboutusPage_review_card {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.AboutusPage_contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.AboutusPage_contact_left {
+  flex: 0.35;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.AboutusPage_contact_right {
+  flex: 0.35;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.AboutusPage_contact_left > p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "unno";
+}
+.AboutusPage_contact_right > p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "unno";
+}
+.AboutusPage_contact_right > span {
+  border: 1px solid lightgrey;
+  width: 80%;
+  height: 48px;
+  margin-bottom: 20px;
+}
+.AboutusPage_contact_right > span >form> input {
+  width: 80%;
+  height: 45px;
+  padding-left: 10px;
+  border: transparent;
+  outline: transparent;
+}
+.AboutusPage_contact_right > span >form> button {
+  width: 20%;
+  height: 45px;
+  background-color: #110c0c;
+  color: #fff;
+}
+.AboutusPage_contact_right_para {
+  color: #969696;
+  font-size: 14px !important;
+}
+.AboutusPage_director {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+}
+.AboutusPage_director_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.AboutusPage_director_heading > p {
+  margin-top: 5px;
+  width: 65%;
+  text-align: center;
+}
+.AboutusPage_director_cards {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.AboutusPage_promise_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+}
+.AboutusPage_team_section {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.AboutusPage_team_section_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.AboutusPage_team_section_heading > p {
+  margin-top: 5px;
+  width: 40%;
+  text-align: center;
+}
+.AboutusPage_team_section_cards {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.AboutusPage_description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+}
+.AboutusPage_description > p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.AboutusPage_description > span {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.AboutusPage_description > span >a > button {
+  border: transparent;
+  outline: transparent;
+  padding: 10px;
+  background-color: #110c0c;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+  .AboutusPage_banner {
+    height: 240px;
+  }
+  .AboutusPage_banner > h3 {
+    width: 90%;
+  }
+  .AboutusPage_banner > p {
+    width: 90%;
+  }
+  .AboutusPage_container_left > div > img {
+    margin-top: -20px;
+    height: 80px;
+  }
+  .AboutusPage_container_left > img {
+    height: 270px;
+  }
+  .AboutusPage_review_card {
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
+  .AboutusPage_container {
+    flex-direction: column;
+  }
+  .AboutusPage_container1{
+    overflow-x: scroll;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .AboutusPage_director_heading > p{
+    width: 95%;
+  }
+  .AboutusPage_director_cards{
+    overflow-x: scroll;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .AboutusPage_team_section_heading > p{
+    width: 95%;
+  }.AboutusPage_contact{
+    width: 88%;
+    flex-direction: column;
+  }
+  .AboutusPage_contact_left{
+    width: 100%;
+  }
+  .AboutusPage_contact_right > span{
+    width: 100%;
+  }
+}
+@media only screen and (max-width:1200px) and (min-width:601px){
+  .AboutusPage_container1{
+    overflow-x: scroll;
+    width: 95%;
+    justify-content: flex-start;
+  }
+  .AboutusPage_director_cards{
+    overflow-x: scroll;
+
+    justify-content: flex-start;
+  }
+}

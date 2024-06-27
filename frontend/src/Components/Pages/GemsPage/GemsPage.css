@@ -1,0 +1,56 @@
+.gemspage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.gemspage_breadcrums{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.gemspage_breadcrums>a{
+    margin-right: 10px;
+}
+.gemspage_breadcrums>p{
+    margin-left: 10px;
+}
+.gemspage_banner{
+    width: 100%;
+    height: 350px;
+}
+.gemspage_banner>img{
+    width: 100%;
+    height: 100%;
+}
+.gemspage_heading{
+    margin-top: 20px;
+}
+.gemspage_cards{
+    margin-top: 30px;
+    width: 97%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.gemscard_image > img{
+width: 90%;
+object-fit: cover;
+}
+@media only screen and (max-width:600px){
+    .gemspage_cards{
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .gemspage_banner{
+        height: 150px;
+    }
+}

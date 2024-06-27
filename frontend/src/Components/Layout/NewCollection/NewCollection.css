@@ -1,0 +1,44 @@
+.newcollection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.newcollection_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.newcollection_heading>h3{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'unna';
+}
+.newcollection_card{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 40px;
+}
+
+@media only screen and (max-width:600px){
+  .newcollection_card{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    gap: 15px;
+  }
+}
+@media only screen and (max-width:1005px) and (min-width:601px){
+  .newcollection_card{
+    gap: 10px;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,125 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #0a0813;
+  color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer_top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.footer_top_first {
+  flex: 0.2;
+}
+.footer_top_second,
+.footer_top_third,
+.footer_top_fourth {
+  flex: 0.125;
+}
+.footer_top_second>a,
+.footer_top_third>a{
+text-decoration: none;
+color: #fff;
+}
+.footer_top_five {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer_top_five_top,
+.footer_top_five_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_top_five_bottom {
+  margin-top: 15px;
+}
+.footer_top_five_top > img {
+  height: 80px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.footer_top_five_bottom >a> img {
+  height: 40px;
+  width: 80px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.footer_top_first > h3,
+.footer_top_second > h3,
+.footer_top_third > h3,
+.footer_top_fourth > h3 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "unno";
+  margin-bottom: 20px;
+}
+.footer_top_first > p,
+.footer_top_second > p,
+.footer_top_third > p,
+.footer_top_fourth > p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "unno";
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.footer_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 40px;
+}
+.footer_bottom > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 0.2;
+}
+.footer_bottom>span>p{
+    cursor: pointer;
+}
+.footer_bottom_span{
+  flex: 0.6 !important;
+}
+@media only screen and (max-width: 600px) {
+  .footer_top {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer_bottom {
+    padding: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    align-items: flex-start;
+  }
+  .footer_bottom>img{
+    margin-bottom: 20px;
+  }
+  .footer_bottom>span{
+    margin-bottom: 20px;
+  }
+  .footer_bottom>span>p{
+    margin-right: 20px;
+  }
+  .footer_bottom_icon{
+    margin-right: 20px;
+  }
+  .footer_bottom_span{
+    flex-direction: column !important;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}

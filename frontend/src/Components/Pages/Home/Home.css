@@ -1,0 +1,51 @@
+.display{
+  display: block;
+}
+.none{
+  display: none;
+}
+.modalhomepagepopup {
+  height: 500px;
+  width: 500px;
+  border-radius: 5px;
+}
+.marqueehometag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 10px 0;
+}
+.marqueehometag > p {
+  font-size: 22px;
+  font-weight: bold;
+
+  background: -webkit-linear-gradient(
+      105deg,
+      #be9118 -12.77%,
+      #efd84e -7.26%,
+      #be9218 7.07%,
+      #f4de53 28.02%,
+      #d4b030 51.17%,
+      #dfc03c 65.5%,
+      #c0941a 84.24%,
+      #c49a1e 84.26%,
+      #b48f25 105.18%,
+      #c89f23 128.33%,
+      #ae9449 158.09%,
+      #bf9319 197.77%
+    )
+;
+  mix-blend-mode: hard-light;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media only screen and (max-width: 600px) {
+  .modalbox {
+    width: 90%;
+  }
+  .modalhomepagepopup {
+    width: 100%;
+    height: 350px;
+  }
+}

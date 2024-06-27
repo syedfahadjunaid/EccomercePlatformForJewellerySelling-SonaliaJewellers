@@ -1,0 +1,127 @@
+.tryathome {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  background-image: url("../../Assests/Image/try at home/Vector.png");
+  background-repeat: no-repeat;
+  background-position-x:left;
+  background-position-y: bottom;
+  background-size:175px;
+}
+.tryathome_left {
+  flex: 0.45;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.tryathome_left > h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.tryathome_left > p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  line-height: 25px;
+  font-size: 18px;
+}
+.tryathome_left > button {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: transparent;
+  outline: transparent;
+  color: #fff;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tryathome_left > button > img {
+  margin-left: 10px;
+}
+.tryathome_left > span {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid lightgrey;
+  width: 95%;
+  padding: 5px;
+  border-radius: 5px;
+}
+.tryathome_left > span > img {
+  width: 150px;
+  height: 150px;
+}
+.tryathome_right {
+  flex: 0.45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tryathome_right {
+  height: 400px;
+  object-fit: contain;
+}
+.tryathome_right > img {
+  height: 400px;
+}
+@media only screen and (max-width: 600px) {
+  .tryathome {
+    flex-direction: column-reverse;
+  }
+  .tryathome_right > img {
+    height: 240px;
+  }
+  .tryathome_left {
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 20px;
+  }
+  .tryathome_left > span {
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+  .tryathome_left > span > img {
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 1300px) and (min-width: 1100px) {
+  .tryathome_right > img {
+    height: 325px;
+  }
+}
+@media only screen and (max-width: 1099px) and (min-width: 1000px) {
+  .tryathome_right > img {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 999px) and (min-width: 601px) {
+  .tryathome_right > img {
+    height: 275px;
+  }
+  .tryathome {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .tryathome_left{
+    width: 95%;
+  }
+}

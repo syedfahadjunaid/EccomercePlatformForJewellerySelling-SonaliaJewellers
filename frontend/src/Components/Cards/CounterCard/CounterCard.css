@@ -1,0 +1,87 @@
+.countercard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 40px;
+}
+.countercard > img {
+  width: 90%;
+  height: 80vh;
+}
+.countercard > span {
+  position: absolute;
+  left: 10%;
+
+  width: 80%;
+}
+.countercard_para {
+  background-color: #ffc83f;
+  color: #000000;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.countercard > span > h4 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: "unno";
+  margin-bottom: 20px;
+}
+.countercard_para1 {
+  width: 50%;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "unno";
+}
+.countercard_timer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "unno";
+  color: #fff;
+  border: 2px dotted #fff;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 6px;
+}
+.countercard > span > a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #630102;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+  .countercard > img {
+    height: 32vh;
+  }
+  .countercard > span > h4 {
+    font-size: 18px;
+  }
+  .countercard_para1 {
+    width: 95%;
+    font-size: 12px;
+  }
+  .countercard_para {
+    font-size: 14px;
+  }
+  .countercard > span > a {
+    font-size: 12px;
+    padding: 6px;
+  }
+  .countercard_timer > p {
+    font-size: 14px;
+  }
+}

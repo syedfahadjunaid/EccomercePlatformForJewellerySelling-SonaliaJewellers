@@ -1,0 +1,188 @@
+.goldsippage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.goldsippage_breadcrums {
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.goldsippage_breadcrums > a {
+  margin-right: 10px;
+}
+.goldsippage_breadcrums > p {
+  margin-left: 10px;
+}
+.goldsippage_banner {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 350px;
+  margin-bottom: 30px;
+}
+.goldsippage_banner>img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+}
+.goldsippage_details{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+.goldsippage_details>p{
+    margin-top: 20px;
+    width: 90%;
+    font-size: 18px;
+    line-height: 25px;
+}
+.goldsippage_whychoosesip{
+    width: 90%;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.goldsippage_whychoosesip_left{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.goldsippage_whychoosesip_left>h3,.goldsippage_how_it_work>h3{
+    /* margin-bottom: 15px; */
+}
+.goldsippage_whychoosesip_left>p{
+    margin-bottom: 15px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.goldsippage_whychoosesip_left_h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.goldsippage_whychoosesip_left_h5_p{
+    opacity: 0.8;
+}
+.goldsippage_whychoosesip_right{
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.goldsippage_benefits{
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.goldsippage_benefits>h3{
+    margin-bottom: 5px;
+}
+.goldsippage_benefits_h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.goldsippage_benefits_p{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+    margin-bottom: 5px;
+    line-height: 25px;
+}
+.goldsippage_benefits_p_heading{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 1;
+    margin-bottom: 5px;
+    line-height: 25px;
+
+}
+.goldsippage_benefits>ol>li,.goldsippage_how_it_work>ol>li{
+    margin-bottom: 10px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.goldsippage_how_it_work{
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+.goldsippage_how_it_work_subheading{
+    font-size: 18px;
+    font-weight: 500;
+}
+.goldsippage_how_it_work>h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.goldsippage_how_it_work_paragraph{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: gray;
+}
+.goldsippage_how_it_work>ul>li{
+    color: gray;
+    font-size: 18px;
+}
+.goldsippage_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.goldsippage_card>img{
+    width: 45%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+@media only screen and (max-width:600px){
+    .goldsippage_whychoosesip{
+        flex-direction: column-reverse;
+    }
+    .goldsippage_whychoosesip_right>img{
+        width: 90%;
+    }
+    .goldsippage_card{
+        /* overflow-x: scroll; */
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .goldsippage_card>img{
+        width: 90%;
+    }
+    .goldsippage_benefits,.goldsippage_how_it_work{
+        padding-left:10px ;
+    }
+    .goldsippage_banner{
+        height: 175px;
+    }
+}

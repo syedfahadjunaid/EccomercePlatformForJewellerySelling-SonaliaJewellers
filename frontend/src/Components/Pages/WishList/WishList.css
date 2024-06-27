@@ -1,0 +1,29 @@
+.wishlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.wishlist_breadcrums{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+}
+.wishlist_breadcrums>a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.wishlist_breadcrums>p{
+    margin-left:10px ;
+}
+.wishlist_card{
+    margin-top: 30px;
+}
+@media only screen and (max-width:600px){
+    .wishlist_card{
+     width: 95%;
+    }
+}

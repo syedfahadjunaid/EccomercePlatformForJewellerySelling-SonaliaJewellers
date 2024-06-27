@@ -1,0 +1,23 @@
+.pagenotfound{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.pagenotfound>p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #630102;
+}
+.pagenotfound>button{
+    background-color: #630102;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

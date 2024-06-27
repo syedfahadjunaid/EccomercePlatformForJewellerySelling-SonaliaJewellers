@@ -1,0 +1,86 @@
+.cartcard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgrey;
+}
+.cartcard_left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 0.6;
+}
+.cartcard_left > img {
+  height: 60px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.cartcard_left > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.cartcard_left > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cartcard_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 0.35;
+  width: 100%;
+}
+.cartcard_right > span {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex: 0.5;
+}
+.cartcard_right > span > button {
+  border: transparent;
+  outline: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  padding: 8px 10px;
+  background-color: transparent;
+  padding-left: 0;
+  cursor: pointer;
+}
+.cartcard_right > span > button > p {
+  margin-left: 8px;
+}
+@media only screen and (max-width: 600px) {
+  .cartcard {
+    width: 98%;
+    flex-direction: column;
+  }
+  .cartcard_left {
+    flex: 1;
+    width: 100%;
+    margin-left: 45px;
+  }
+  .cartcard_right > span {
+    flex: 0;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .cartcard_right {
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+  .cartcard_right > span > button {
+    margin-left: 10px;
+  }
+}

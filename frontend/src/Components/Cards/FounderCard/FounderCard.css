@@ -1,0 +1,40 @@
+.foundercard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 375px;
+
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+.foundercard > img {
+  flex: 0.4;
+  height: 150px;
+}
+.foundercard_details {
+  flex: 0.55;
+  padding: 8px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.foundercard_details>p:last-child{
+    margin-top: 5px;
+    font-weight: bold;
+}
+.foundercard:hover{
+    box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.10);
+
+}
+@media only screen and (max-width:600px){
+  .foundercard{
+    min-width: 350px;
+  }
+}
+@media only screen and (max-width:1200px) and (min-width:601px){
+  .foundercard{
+    min-width: 375px;
+  }
+}

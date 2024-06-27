@@ -1,0 +1,32 @@
+.profilepage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+.profilepage_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    background-color: #000000;
+    height: 40px;
+    padding: 30px 0;
+    border-radius: 5px;
+}
+.inActive_profile_nav{
+    cursor: pointer;
+    color: #757575;
+}
+.profilepage_details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.active_profile_nav{
+    color: #fff;
+}

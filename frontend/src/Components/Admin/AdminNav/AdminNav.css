@@ -1,0 +1,78 @@
+.adminnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgrey;
+  background-color: #fff;
+}
+.adminnav_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adminnav_left > img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 5px;
+}
+.adminnav_center {
+  flex: 0.5;
+}
+.adminnav_center > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dddddd;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+.adminnav_center > span > input {
+  width: 90%;
+  height: 35px;
+  border: transparent;
+  outline: transparent;
+  background-color: #f8f8f8;
+}
+.adminnav_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adminnav_right > div {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.adminnav_right > div > span {
+  display: none;
+}
+.adminnav_right > div:hover > span {
+  padding: 8px;
+  width: 100px;
+  background-color: #dddddd;
+  position: absolute;
+  top: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.adminnav_right > div > span > p {
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: fit-content;
+}
+.adminnav_right > div > span > p:hover {
+  color: #5329ac;
+}

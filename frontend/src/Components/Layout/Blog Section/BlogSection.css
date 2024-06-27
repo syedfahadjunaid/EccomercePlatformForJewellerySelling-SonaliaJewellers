@@ -1,0 +1,6 @@
+.featuredDeals_bottom_right{
+    overflow-x: scroll;
+    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column !important;
+}

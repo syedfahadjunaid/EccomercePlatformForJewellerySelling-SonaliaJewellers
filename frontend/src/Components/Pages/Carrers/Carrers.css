@@ -1,0 +1,28 @@
+.carrersPage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px 0;
+  min-height: 40vh;
+}
+.carrersPage_div {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+.carrersPage_div > h3,
+.carrersPage_div > p {
+  margin-bottom: 15px;
+}
+.carrersPage_div > p {
+  width: 80%;
+}
+.carrersPage_div > a {
+  color: #630102;
+  font-weight: 600;
+  text-decoration: underline;
+}

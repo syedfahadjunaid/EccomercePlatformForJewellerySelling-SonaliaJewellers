@@ -1,0 +1,62 @@
+.adminsidebar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10%;
+    border-right: 1px solid lightgrey;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.adminsidebar>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.adminsidebar>span>p{
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.adminsidebar_icon{
+    margin-right: 15px;
+}
+.adminsidebar>div{
+    margin-left: 40px;
+}
+.adminsidebar>div>div>span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.adminsidebar>div>div>span>p{
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.adminsidebar>div>div>p{
+    margin-left: 40px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.adminsidebar>div>p{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.active_sidebar{
+    color: #5329AC;
+}

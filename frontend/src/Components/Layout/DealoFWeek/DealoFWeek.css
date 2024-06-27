@@ -1,0 +1,121 @@
+.dealofweek {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 60px;
+}
+.dealofweek_left {
+  flex: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* border: 1px solid lightgrey; */
+  height: 400px;
+}
+.dealofweek_left_heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+.dealofweek_left_heading > h3 {
+  font-size: 35px;
+  font-weight: 400;
+  font-family: "unno";
+}
+.dealofweek_left_card {
+  width: 100%;
+  margin-top: 20px;
+}
+.dealofweek_right {
+  flex: 1;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.dealofweek_right_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 30px;
+}
+.dealofweek_right_heading > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dealofweek_right_heading > span > h3 {
+  font-size: 35px;
+  font-weight: 400;
+  font-family: "unno";
+  margin-right: 30px;
+}
+.dealofweek_right_heading > a {
+  text-decoration: none;
+  color: #110c0c;
+}
+.dealofweek_right_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  width: 90%;
+}
+@media only screen and (max-width: 600px) {
+  .dealofweek {
+    flex-direction: column-reverse;
+  }
+  .dealofweek_right_heading > span > p {
+    font-size: 14px;
+  }
+  .dealofweek_right_heading > a {
+    font-size: 12px;
+  }
+  .dealofweek_left_heading {
+    align-items: center;
+    justify-content: center;
+  }
+  .dealofweek_left_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dealofweek_right_card {
+    width: 95%;
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1020px) {
+  .dealofweek_left {
+    display: none;
+  }
+  .dealofweek_right {
+    flex: 1;
+  }
+}
+@media only screen and (max-width: 1019px) and (min-width: 720px) {
+  .dealofweek_left {
+    display: none;
+  }
+  .dealofweek_right {
+    flex: 1;
+  }
+  .dealofweek_right_card {
+    overflow-x: scroll;
+    justify-content: flex-start;
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .dealofweek_left {
+    display: none;
+  }
+}

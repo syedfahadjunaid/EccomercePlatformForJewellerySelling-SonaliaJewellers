@@ -1,0 +1,47 @@
+.orderhistorypage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.orderhistorypage_heading{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.orderhistorypage_category{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+.orderhistorypage_category_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 0.45;
+    background-color: #F3F3F3;
+    padding: 15px 0;
+}
+.orderhistorypage_category_right{
+    flex: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.orderhistorypage_category_right>span{
+    background-color: #F3F3F3;
+    padding: 15px 10px;
+    
+}
+.orderhistorypage_cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

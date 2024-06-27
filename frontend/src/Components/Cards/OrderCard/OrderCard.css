@@ -1,0 +1,171 @@
+.ordercard {
+  width: 70%;
+  height: 250px;
+  border: 1px solid lightgrey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 2%;
+  border-radius: 5px;
+}
+.ordercard_left {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+.ordercard_left > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+.ordercard_center {
+  flex: 0.55;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.ordercard_center > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.ordercard_center > span {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ordercard_center > span > button {
+  margin-right: 20px;
+  padding: 12px;
+  border: transparent;
+  outline: transparent;
+  background-color: #110c0c;
+  color: #fff;
+  border-radius: 5px;
+}
+.ordercard_right {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+}
+.ordercard_right > button {
+  margin-right: 20px;
+  padding: 12px;
+  border: transparent;
+  outline: transparent;
+  background-color: #110c0c;
+  color: #fff;
+  border-radius: 5px;
+}
+.invoice_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.invoice_top_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.invoice_top_left > img {
+  margin-bottom: 10px;
+}
+.invoice_top_right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.invoice_top_right > p {
+  margin-bottom: 5px;
+}
+.invoice_bottom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.invoice_center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+.invoice_center_left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.invoice_center_left > span {
+  margin-bottom: 10px;
+}
+.invoice_center_right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.invoice_table {
+  margin-top: "20px";
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.invoice_table_first {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #fff9b9;
+  padding: 10px 0;
+}
+.invoice_table_first > span > p {
+  margin-bottom: 3px;
+}
+
+.invoice_table_second {
+  width: 100%;
+}
+.invoice_table_second>table{
+  width: 100%;
+}
+.invoice_table_second_total{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.invoice_table_second_total_left{
+  flex: 0.45;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.invoice_table_second_total_left>p,.invoice_table_second_total_right>span{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.invoice_table_second_total_right{
+  flex: 0.45;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 100%;
+}

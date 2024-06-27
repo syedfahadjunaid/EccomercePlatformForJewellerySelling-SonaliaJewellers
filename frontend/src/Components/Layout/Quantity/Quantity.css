@@ -1,0 +1,20 @@
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  padding: 1px 3px;
+  border-radius: 6px;
+  width: 100px;
+  height: 40px;
+}
+.quantity_data{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* @media only screen and (max-width:600px){
+  .quantity{
+    width: 80px;
+    height: 35px;
+  } */
+/* } */

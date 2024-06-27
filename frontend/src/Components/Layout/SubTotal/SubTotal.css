@@ -1,0 +1,100 @@
+.subtotal{
+    width: 100%;
+    height: 375px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 30px;
+    border-radius: 6px;
+}
+.subtotal_top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.subtotal_top>h3{
+    margin-bottom: 15px;
+}
+.subtotal_top>span{
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.subtotal_top>span>input{
+    width: 80%;
+    height: 45px;
+    border: transparent;
+    outline: transparent;
+    padding-left: 10px;
+}
+.subtotal_top>span>button{
+    width: 20%;
+    height: 100%;
+    border: transparent;
+    outline: transparent;
+    background-color: #110C0C;
+    color: #fff;
+}
+.subtotal_bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.subtotal_bottom>span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.subtotal_bottom>span>button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.subtotal_bottom_grandtotal{
+   border-top: 1px solid lightgrey;
+   padding-top: 20px;
+}
+.subtotal_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.subtotal_button>button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding: 8px 10px;
+    border: transparent;
+    outline: transparent;
+    color: #fff;
+    background-color: #110C0C;
+    border-radius: 6px;
+}
+.subtotal_button>button>p{
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+@media only screen and (max-width:1300px) and (min-width:950px){
+    .subtotal{
+        height: 400px;
+    }
+}

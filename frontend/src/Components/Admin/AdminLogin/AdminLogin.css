@@ -1,0 +1,76 @@
+.adminlogin{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 70px;
+}
+.adminlogin_left{
+    flex: 0.45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-right: 1px solid lightgrey;
+}
+.adminlogin_left_header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.adminlogin_left>img{
+    height: 400px;
+    object-fit: contain;
+}
+.adminlogin_right{
+    flex: 0.45;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.adminlogin_right>form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.adminlogin_right>form>span{
+    width: 300px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #EEF2F5;
+    border-radius: 5px;
+}
+.adminlogin_right>form>span>input{
+    width: 90%;
+    border: transparent;
+    outline: transparent;
+    height: 35px;
+    padding-left: 10px;
+    background-color: transparent;
+}
+.adminlogin_right_forget{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.adminlogin_right>form>button{
+    font-size: 18px;
+    padding: 8px 14px;
+    border: transparent;
+    outline: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+}

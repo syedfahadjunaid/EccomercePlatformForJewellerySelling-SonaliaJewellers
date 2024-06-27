@@ -1,0 +1,36 @@
+.blogcard {
+  justify-content: flex-start !important;
+}
+.blogcard_top {
+  height: 55% !important;
+}
+.blogcard_top > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.productcard_bottom > p {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.productcard_bottom > button {
+  border: transparent;
+  outline: transparent;
+  padding: 8px 10px;
+  background-color: #630102;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.blogcard_bottom > h3 {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "unno";
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .blogcard {
+    min-width: 275px;
+    min-height: 450px;
+  }
+}

@@ -1,0 +1,57 @@
+.ordercomfirmpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+.ordercomfirmpage_div {
+  width: 40%;
+  height: 500px;
+  border: 1px solid grey;
+  margin-top: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.ordercomfirmpage_div_gif {
+  position: absolute;
+  top: -35px;
+}
+.ordercomfirmpage_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ordercomfirmpage_button > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+  background-color: #110C0C;
+  color: #fff;
+  border-radius: 5px;
+}
+.ordercomfirmpage_button > button > p {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+.ordercomfirmpage_heading,.ordercomfirmpage_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.ordercomfirmpage_transaction{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 55%;
+}

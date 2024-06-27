@@ -1,0 +1,17 @@
+.faqcard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.accordion_heading {
+  width: 100%;
+  display: flex;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  font-size: 25px !important;
+  font-weight: 500 !important;
+}
+.accordion_heading > img {
+  margin-right: 10px;
+}
